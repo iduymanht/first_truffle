@@ -1,0 +1,25 @@
+{
+  "name": "voting-dapp-ropsten",
+  "version": "0.0.1",
+  "description": "",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "lite-server",
+    "test": "lite-server"
+  },
+  "author": "Bukosabino",
+  "license": "",
+  "devDependencies": {
+    "lite-server": "^2.3.0",
+    "express": "*",
+    "body-parser": "*",
+    "bcrypt": "^0.8.5"
+  },
+  "dependencies": {
+    "truffle-hdwallet-provider": "0.0.3"
+  }
+}
